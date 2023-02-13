@@ -1,12 +1,11 @@
 # dvla-demo
 A purely functional React Native app demonstrating the use of the DVLA API.
 
-npm i axios
-npm install -D react-native-dotenv
+`npm i axios`
+`npm install -D react-native-dotenv`
 
-Create a .env file in the root directory containing the DVLA API key.
-
-`babel.config.js`
+1. Create a .env file in the root directory containing the DVLA API key \n
+2. Make the following changes to `babel.config.js`
 
 ```
 module.exports = function(api) {
